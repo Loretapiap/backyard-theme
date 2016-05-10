@@ -1,0 +1,84 @@
+button {background: none;
+	border: 3px solid #3cb1f6;
+	border-radius: 20px;
+	color: #3cb1f6;
+	padding: 1%;
+
+	a {color: #3cb1f6;}
+	a:hover {color: white; text-decoration: none;}
+
+	}
+	button:hover {background-color: #3cb1f6;}
+
+.cyan {color: #3cb1f6; font-weight: bold;}
+
+header {
+	background-image: url(../images/logo2.png);
+	background-position: left;
+	background-repeat: no-repeat;
+
+		li {
+		list-style: none;
+		display: inline-block;
+		padding: 1%;
+		font-size: 1.2em;
+			a {
+			text-decoration:none;
+			color: grey;
+			}
+			a:hover {
+			text-decoration: none;
+			color: #3cb1f6;}
+		}
+
+		nav {padding-top: 2%; padding-bottom: 1%;}
+}
+
+.part2 {
+	background-image: url(../images/1920x665-1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 670px;
+
+		div.col-md-7 {
+		margin-top: 100px;
+		padding: 5%;
+		color:white;
+		z-index: 5;
+			p {width: 70%;}
+		}
+
+		.black-op {
+		background-color: black;
+		opacity: 0.5;
+		min-height: 670px;
+		z-index: 1;
+		}
+}
+.part3, .part4, .part5 {
+	padding-top: 3%;
+}
+
+.part5 {
+	li {
+	list-style: none;
+	}
+}
+
+footer {
+	
+
+	a {text-decoration: none; color: #3cb1f6;
+	}
+	a:hover {text-decoration: none; }
+	h1 {
+	color: #3cb1f6;
+
+	i {color: #3cb1f6;}
+
+	i {	
+	border: 1px solid #3cb1f6;
+	border-radius: 100%;
+	padding: 4%;}
+	}
+}
