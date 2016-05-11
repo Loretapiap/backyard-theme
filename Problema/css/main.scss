@@ -1,16 +1,18 @@
+$color-pr: #3cb1f6;
+
 button {background: none;
-	border: 3px solid #3cb1f6;
+	border: 3px solid $color-pr;
 	border-radius: 20px;
-	color: #3cb1f6;
+	color: $color-pr;
 	padding: 1%;
 
-	a {color: #3cb1f6;}
+	a {color: $color-pr;}
 	a:hover {color: white; text-decoration: none;}
 
 	}
-	button:hover {background-color: #3cb1f6;}
+	button:hover {background-color: $color-pr;}
 
-.cyan {color: #3cb1f6; font-weight: bold;}
+.cyan {color: $color-pr; font-weight: bold;}
 
 header {
 	background-image: url(../images/logo2.png);
@@ -28,7 +30,7 @@ header {
 			}
 			a:hover {
 			text-decoration: none;
-			color: #3cb1f6;}
+			color: $color-pr;}
 		}
 
 		nav {padding-top: 2%; padding-bottom: 1%;}
@@ -68,16 +70,16 @@ header {
 footer {
 	
 
-	a {text-decoration: none; color: #3cb1f6;
+	a {text-decoration: none; color: $color-pr;
 	}
 	a:hover {text-decoration: none; }
 	h1 {
-	color: #3cb1f6;
+	color: $color-pr;
 
-	i {color: #3cb1f6;}
+	i {color: $color-pr;}
 
 	i {	
-	border: 1px solid #3cb1f6;
+	border: 1px solid $color-pr;
 	border-radius: 100%;
 	padding: 4%;}
 	}
